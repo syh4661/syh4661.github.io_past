@@ -1,0 +1,117 @@
+*{
+    margin:0;
+}
+
+nav.navi
+{
+    position:fixed;
+    width:100%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    z-index:1;
+    background-color: white;
+    display : flex;
+    flex-wrap: nowrap;
+}
+.navi ul
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.main
+{
+    float:left;
+    margin-left:3%;
+}
+.navcont, .top
+{
+    list-style-type: none;
+}
+.navcont
+{
+    justify-content : flex-end;
+}
+header
+{
+    background-image: url(/back-black.jpg);
+    background-size: contain;
+    background-position: right
+    position:relative;
+    height:100vh;
+}
+.welfir
+{
+    height:100%;
+}
+.wel
+{
+    display:block;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    width:100%;
+    top:45%;
+}
+.first
+{
+    display:block;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    width:100%;
+    top:50%;
+}
+.parent
+{
+    height:100px;
+    width:100%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+/*.p1, .p2, .p3*/
+/*{*/
+/*    font-size:0px;*/
+/*    display:block;*/
+/*    height: 100%;*/
+/*    width: 30%;*/
+/*    background-size:contain;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.p1*/
+/*{*/
+/*    background-image: url();*/
+/*    background-position: center;*/
+/*    margin-left:17%;*/
+/*}*/
+/*.p2*/
+/*{*/
+/*    background-position: center;*/
+/*    background-image: url();*/
+/*    margin-left:3%;*/
+/*    margin-right:3%;*/
+/*}*/
+/*.p3*/
+/*{*/
+/*    background-image: url();*/
+/*    background-position: center;*/
+/*    margin-right:17%;*/
+/*}*/
+footer
+{
+    display: flex;
+    margin-bottom: 20px;
+    font-size : 15px;
+    justify-content:space-between;
+}
+.contact
+{
+    margin-left:10%;    
+}
+.tel
+{
+    margin-left: 5%;
+}
