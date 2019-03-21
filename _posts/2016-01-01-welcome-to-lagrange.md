@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
+title: "Welcome to syh!"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
